@@ -120,7 +120,7 @@ ifneq ($(filter LINUX,$(OS)),)
 bridges_SELECTED_BRIDGE := gcc3_linux_riscv64
 bridge_asm_objects := call
 bridge_noopt_objects := cpp2uno uno2cpp
-bridge_exception_objects := except
+bridge_exception_objects := abi except
 endif
 
 else ifeq ($(CPUNAME),POWERPC)
