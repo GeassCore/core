@@ -90,6 +90,8 @@ using namespace ::com::sun::star::container;
 using namespace ::com::sun::star::document;
 using namespace ::xmloff::token;
 
+template class uno::Reference<xml::sax::XFastAttributeList> ;
+
 rtl::Reference< FastTokenHandler > SvXMLImport::xTokenHandler( new FastTokenHandler() );
 std::unordered_map< sal_Int32, std::pair< OUString, OUString > > SvXMLImport::aNamespaceMap;
 std::unordered_map< OUString, OUString > SvXMLImport::aNamespaceURIPrefixMap;

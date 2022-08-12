@@ -171,6 +171,10 @@ using namespace container           ;
 static sal_uInt32 nMSOleObjCntr = 0;
 constexpr OUStringLiteral MSO_OLE_Obj = u"MSO_OLE_Obj";
 
+template class uno::Reference<io::XInputStream>;
+template class cppu::ImplInheritanceHelper<utl::OInputStreamWrapper, io::XSeekable>;
+template class cppu::WeakImplHelper<io::XInputStream>;
+
 namespace {
 /* Office File Formats - 2.2.23  */
 enum class OfficeArtBlipRecInstance : sal_uInt32

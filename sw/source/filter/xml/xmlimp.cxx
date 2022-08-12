@@ -90,6 +90,8 @@ using namespace ::com::sun::star::xforms;
 using namespace ::xmloff::token;
 using namespace ::std;
 
+template class uno::Reference<io::XInputStream>;
+
 namespace {
 
 class SwXMLBodyContext_Impl : public SvXMLImportContext

@@ -61,6 +61,8 @@
 
 using namespace com::sun::star;
 
+template class uno::Reference<io::XInputStream>;
+
 namespace svt {
 
 namespace {

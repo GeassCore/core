@@ -35,6 +35,8 @@
 #include <cppuhelper/implbase.hxx>
 #include <utility>
 
+template class com::sun::star::uno::Reference<com::sun::star::io::XInputStream>;
+
 namespace svt::GraphicAccess
 {
 

@@ -83,6 +83,8 @@ using namespace com::sun::star::lang;
 using namespace com::sun::star::document;
 using namespace comphelper;
 
+template class uno::Reference<io::XInputStream>;
+
 #define SD_XML_READERROR ErrCode(1234)
 
 char const sXML_export_impress_meta_oasis_service[] = "com.sun.star.comp.Impress.XMLOasisMetaExporter";

@@ -61,6 +61,8 @@
 
 using namespace com::sun::star;
 
+template class uno::Reference<io::XOutputStream>;
+
 constexpr sal_uInt32 SCDRAWTRANS_TYPE_EMBOBJ    = 1;
 constexpr sal_uInt32 SCDRAWTRANS_TYPE_DRAWMODEL = 2;
 constexpr sal_uInt32 SCDRAWTRANS_TYPE_DOCUMENT  = 3;

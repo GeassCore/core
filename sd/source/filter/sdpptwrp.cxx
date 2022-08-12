@@ -40,6 +40,9 @@ using namespace ::com::sun::star::beans;
 using namespace ::com::sun::star::task;
 using namespace ::com::sun::star::frame;
 
+using namespace ::com::sun::star;
+template class uno::Reference<io::XInputStream>;
+
 typedef sal_Bool ( *ExportPPTPointer )( const std::vector< css::beans::PropertyValue >&, tools::SvRef<SotStorage> const&,
                                              Reference< XModel > const &,
                                              Reference< XStatusIndicator > const &,

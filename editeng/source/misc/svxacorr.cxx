@@ -80,6 +80,8 @@ using namespace ::com::sun::star;
 using namespace ::xmloff::token;
 using namespace ::utl;
 
+template class uno::Reference<io::XOutputStream>;
+
 namespace {
 
 enum class Flags {

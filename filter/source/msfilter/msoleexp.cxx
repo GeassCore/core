@@ -48,6 +48,8 @@
 
 using namespace ::com::sun::star;
 
+template class uno::Reference<io::XOutputStream>;
+
 static SvGlobalName GetEmbeddedVersion( const SvGlobalName& aAppName )
 {
     if ( aAppName == SvGlobalName( SO3_SM_CLASSID_60 ) )
