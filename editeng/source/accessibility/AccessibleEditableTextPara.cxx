@@ -80,6 +80,7 @@ using namespace ::com::sun::star::accessibility;
 
 // AccessibleEditableTextPara implementation
 
+template class cppu::WeakImplHelper<com::sun::star::accessibility::XAccessibleStateSet>;
 
 namespace accessibility
 {

@@ -69,6 +69,8 @@ using namespace ::com::sun::star::uno;
 using namespace com::sun::star::xml::sax;
 using namespace ::xmloff::token;
 
+template class uno::Reference< io::XInputStream>;
+
 // SmMLImportContext
 /*************************************************************************************************/
 

@@ -66,6 +66,8 @@ using namespace ::com::sun::star::uno;
 using namespace ::com::sun::star;
 using namespace ::xmloff::token;
 
+template class uno::Reference<io::XOutputStream>;
+
 // SmMLExportWrapper
 /*************************************************************************************************/
 

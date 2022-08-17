@@ -85,6 +85,9 @@ using namespace comphelper;
 
 #define SD_XML_READERROR ErrCode(1234)
 
+template class uno::Reference<io::XInputStream>;
+template class uno::Reference<io::XOutputStream>;
+
 char const sXML_export_impress_meta_oasis_service[] = "com.sun.star.comp.Impress.XMLOasisMetaExporter";
 char const sXML_export_impress_styles_oasis_service[] = "com.sun.star.comp.Impress.XMLOasisStylesExporter";
 char const sXML_export_impress_content_oasis_service[] = "com.sun.star.comp.Impress.XMLOasisContentExporter";

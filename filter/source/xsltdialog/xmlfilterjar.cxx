@@ -60,6 +60,9 @@ using namespace com::sun::star::io;
 
 using ::rtl::Uri;
 
+template class uno::Reference<io::XInputStream>;
+template class uno::Reference<io::XOutputStream>;
+
 constexpr OUStringLiteral sVndSunStarPackage(u"vnd.sun.star.Package:");
 
 XMLFilterJarHelper::XMLFilterJarHelper( const Reference< XComponentContext >& rxContext )

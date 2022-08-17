@@ -80,6 +80,9 @@ using namespace ::com::sun::star::uno;
 using namespace ::com::sun::star;
 using namespace ::xmloff::token;
 
+template class uno::Reference<io::XOutputStream>;
+template class uno::Reference< io::XInputStream>;
+
 namespace
 {
 std::unique_ptr<SmNode> popOrZero(SmNodeStack& rStack)

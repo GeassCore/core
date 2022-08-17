@@ -54,6 +54,9 @@
 
 using namespace com::sun::star;
 
+template class uno::Reference<io::XInputStream>;
+template class uno::Reference<io::XOutputStream>;
+
 namespace
 {
 /// Returns an util::DateTime from a 'YYYY. MM. DD.' string.

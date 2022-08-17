@@ -45,6 +45,8 @@ using namespace com::sun::star::text;
 using namespace cppu;
 using namespace xmloff::token;
 
+template class uno::Reference<io::XInputStream>;
+
 namespace {
 
 class SvxXMLTextImportContext : public SvXMLImportContext

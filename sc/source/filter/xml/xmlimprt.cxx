@@ -113,6 +113,8 @@ using namespace com::sun::star;
 using namespace ::xmloff::token;
 using namespace ::formula;
 
+template class uno::Reference<io::XInputStream>;
+
 extern "C" SAL_DLLPUBLIC_EXPORT css::uno::XInterface*
 Calc_XMLOasisImporter_get_implementation(
     css::uno::XComponentContext* context, css::uno::Sequence<css::uno::Any> const& )

@@ -34,6 +34,8 @@
 #include <unotools/streamwrap.hxx>
 #include <cppuhelper/implbase.hxx>
 
+template class com::sun::star::uno::Reference<com::sun::star::io::XInputStream>;
+
 namespace svt::GraphicAccess
 {
 
